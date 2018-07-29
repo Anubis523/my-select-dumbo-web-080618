@@ -3,7 +3,9 @@ def my_select(collection)
  index = 0 
  arr = []
  while (index < collection.length)
-  
+  if (yield collection[index] == true)
+  end
+  index += 1
  end
  arr
 end
