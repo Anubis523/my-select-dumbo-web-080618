@@ -5,4 +5,5 @@ def my_select(collection)
  while (index < collection.length)
   
  end
+ arr
 end
